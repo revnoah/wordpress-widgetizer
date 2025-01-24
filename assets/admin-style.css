@@ -1,0 +1,115 @@
+/* Widgetizer Admin Styles */
+
+.widgetizer-dynamic-widget {
+    background-color: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.widgetizer-dynamic-widget h2 {
+    margin-top: 0;
+    font-size: 1.3em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.widgetizer-dynamic-widget p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.widgetizer-dynamic-widget a {
+    color: #0073aa;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.widgetizer-dynamic-widget a:hover {
+    text-decoration: underline;
+    color: #005177;
+}
+
+.widgetizer-dynamic-widget .button-primary {
+    margin-top: 15px;
+}
+
+.widgetizer-full-width {
+    width: 100% !important;
+    margin: 0 auto !important;
+    clear: both !important;
+}
+
+/* Alignment styles for blocks */
+.alignwide {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px; /* Adjust to your wide layout */
+}
+
+.alignfull {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+/* Ensure container responsiveness */
+.wp-block-group, .wp-block-cover, .wp-block-columns {
+    display: block;
+    box-sizing: border-box;
+}
+
+/* Default list style */
+.wp-block-list,
+.is-style-default-list {
+    list-style-type: disc;
+    padding-left: 1.5em;
+}
+
+/* Checkmark list style */
+.is-style-checkmark-list {
+    list-style-type: none;
+    padding-left: 1.5em;
+}
+
+.is-style-checkmark-list li:before {
+    content: "✔"; /* Checkmark character */
+    color: #00aa00; /* Green color */
+    font-weight: bold;
+    margin-right: 0.5em;
+    display: inline-block;
+}
+
+/* Numbered list style */
+.is-style-numbered-list {
+    list-style-type: decimal;
+    padding-left: 1.5em;
+}
+
+/* Fancy bullet list style */
+.is-style-fancy-bullet-list {
+    list-style-type: none;
+    padding-left: 1.5em;
+}
+
+.is-style-fancy-bullet-list li:before {
+    content: "★"; /* Fancy bullet character */
+    color: #ff9900; /* Orange color */
+    font-size: 1.2em;
+    margin-right: 0.5em;
+    display: inline-block;
+}
+
+/* Dashed list style */
+.is-style-dashed-list {
+    list-style-type: none;
+    padding-left: 1.5em;
+}
+
+.is-style-dashed-list li {
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+}

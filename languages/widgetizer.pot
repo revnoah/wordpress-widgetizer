@@ -1,0 +1,111 @@
+# Copyright (C) 2025 Noah Stewart
+# This file is distributed under the same license as the Dashboard Widgetizer plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Dashboard Widgetizer 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/widgetizer\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-01-24T03:04:46+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: widgetizer\n"
+
+#. Plugin Name of the plugin
+#: includes/class-settings.php:14
+#: includes/class-settings.php:15
+#: includes/class-settings.php:49
+msgid "Dashboard Widgetizer"
+msgstr ""
+
+#. Description of the plugin
+msgid "A customizable dashboard plugin that adds dynamic widget content built using the Gutenberg block content editor."
+msgstr ""
+
+#. Author of the plugin
+msgid "Noah Stewart"
+msgstr ""
+
+#: includes/class-custom-post-type.php:14
+msgid "Dashboard Widgets"
+msgstr ""
+
+#: includes/class-custom-post-type.php:15
+msgid "Dashboard Widget"
+msgstr ""
+
+#: includes/class-custom-post-type.php:16
+#: includes/class-custom-post-type.php:17
+msgid "Add New Widget"
+msgstr ""
+
+#: includes/class-custom-post-type.php:18
+msgid "Edit Widget"
+msgstr ""
+
+#: includes/class-custom-post-type.php:19
+msgid "New Widget"
+msgstr ""
+
+#: includes/class-custom-post-type.php:20
+msgid "View Widget"
+msgstr ""
+
+#: includes/class-custom-post-type.php:21
+msgid "Widgets"
+msgstr ""
+
+#: includes/class-custom-post-type.php:22
+msgid "Search Widgets"
+msgstr ""
+
+#: includes/class-custom-post-type.php:23
+msgid "No widgets found"
+msgstr ""
+
+#: includes/class-custom-post-type.php:24
+msgid "No widgets found in Trash"
+msgstr ""
+
+#: includes/class-custom-post-type.php:53
+msgid "Widget Visibility by Role"
+msgstr ""
+
+#: includes/class-custom-post-type.php:67
+msgid "Select the user roles that can view this dashboard widget, or select none/all for all roles."
+msgstr ""
+
+#: includes/class-dynamic-widget.php:51
+msgid "Dynamic Content"
+msgstr ""
+
+#: includes/class-dynamic-widget.php:65
+msgid "No content available."
+msgstr ""
+
+#: includes/class-settings.php:57
+msgid "Full Width Dashboard Widgets"
+msgstr ""
+
+#: includes/class-settings.php:60
+msgid "Enable full-width dashboard widgets"
+msgstr ""
+
+#: includes/class-settings.php:64
+msgid "Disable Default Meta Boxes"
+msgstr ""
+
+#: includes/class-settings.php:67
+msgid "Disable default WordPress dashboard widgets (e.g., News, Activity)"
+msgstr ""
+
+#: includes/class-settings.php:71
+msgid "Disable Postbox Headers"
+msgstr ""
+
+#: includes/class-settings.php:74
+msgid "Disable postbox headers on the dashboard"
+msgstr ""
